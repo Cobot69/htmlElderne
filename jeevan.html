@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeevan Sandhya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #002f4e;
+      padding: 20px;
+      text-align: center;
+    }
+    .header-container h1, .header-container h3 {
+      color: white;
+    }
+    .about-container, .facilities-container, .gallery-container, .contact-container {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .facilities-container h2, .gallery-container h2, .contact-container h2 {
+      color: brown;
+    }
+    .about-container ul {
+      list-style-type: disc;
+      margin: 20px;
+      padding: 0;
+      font-size: large;
+    }
+    .facilities-container ul {
+      list-style-type: disc;
+      margin: 20px;
+      padding: 0;
+      font-size: large;
+      font-weight: bolder;
+    }
+    .facilities-container ul li {
+      margin-bottom: 10px;
+    }
+    .gallery-container {
+      text-align: center;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 100%;
+    }
+    .gallery-grid figure {
+      margin: 0;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .gallery-grid figcaption {
+      text-align: center;
+      font-size: small;
+      margin-top: 5px;
+      font-weight: bolder;
+    }
+    button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #002f4e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Vidyaranya Seva Sangha's Jeevan Sandhya</h1>
+      <h3>Home For Elders</h3>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <h2 style="color: brown;">About Us</h2>
+      <ul style="font-size: x-large;">
+        <li>Jeevan Sandhya concept was the dream project of Vidyaranya Seva Sangha, a nonprofit social organization.</li>
+        <li>Located slightly off the main Karwar Road amidst greenery, providing a peaceful environment.</li>
+        <li>Offers independent, semi, and multi-dwellings designed with modern amenities in a serene atmosphere.</li>
+        <li>Supported by various institutions, the home celebrates events like drama, pravachanas, sangeet, and student performances.</li>
+        <li>Aims to maintain smiling faces and the dignity of its residents in a vibrant and engaging community.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="facilities">
+    <div class="facilities-container">
+      <h2 style="color: brown;">Our Facilities</h2>
+      <ul>
+        <li>Filter Water</li>
+        <li>Quality Food</li>
+        <li>CCTV Surveillance</li>
+        <li>Hot Water</li>
+        <li>Weekly Doctor Visits</li>
+        <li>Nursing Care</li>
+        <li>Emergency Vehicle</li>
+        <li>Entertainment Programs</li>
+        <li>Library</li>
+        <li>Walking Track</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="gallery-container">
+      <h2 style="color: brown;">Image Gallery</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="jeevan1.jpg" alt="Jeevan Sandhya - 1">
+          <figcaption style="font-weight: bold; font-size: larger;">Surroundings of Jeevan Sandhya</figcaption>
+        </figure>
+        <figure>
+          <img src="jeevan2.jpg" alt="Jeevan Sandhya - 2">
+          <figcaption style="font-weight: bold; font-size: larger;">Comfortable living spaces</figcaption>
+        </figure>
+        <figure>
+          <img src="jeevan3.jpg" alt="Jeevan Sandhya - 3">
+          <figcaption style="font-weight: bold; font-size: larger;">Community events and activities</figcaption>
+        </figure>
+        <figure>
+          <img src="jeevan4.jpg" alt="Jeevan Sandhya - 4">
+          <figcaption style="font-weight: bold; font-size: larger;">Dining hall of jeevan sandhya</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2 style="color: brown;">Contact Us</h2>
+      <p>Phone: +91 9164753102</p>
+      <p>Address: 25/1 Karwar Road, Near Mishrikoti Cross, Kadanakoppa, Dharwad - 580196</p>
+      <p>Email: vidyaranyasevasangha.hubli@gmail.com</p>
+    </div>
+  </section>
+
+  <button onclick="window.location.href = 'oldagehome.html'">
+    ← Back
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

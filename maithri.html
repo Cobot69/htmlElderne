@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maithri Vrudashrama</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #002f4e;
+      padding: 20px;
+      text-align: center;
+    }
+    .header-container h1, .header-container h3 {
+      color: white;
+    }
+    .about-container, .facilities-container, .gallery-container, .contact-container {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .facilities-container h2, .gallery-container h2, .contact-container h2 {
+      color: brown;
+    }
+    .about-container ul {
+      list-style-type: disc;
+      margin: 20px;
+      padding: 0;
+      font-size: large;
+    }
+    .facilities-container ul {
+      list-style-type: disc;
+      margin: 20px;
+      padding: 0;
+      font-size: large;
+      font-weight: bolder;
+    }
+    .facilities-container ul li {
+      margin-bottom: 10px;
+    }
+    .gallery-container {
+      text-align: center;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 100%;
+    }
+    .gallery-grid figure {
+      margin: 0;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: 300px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .gallery-grid figcaption {
+      text-align: center;
+      font-size: small;
+      margin-top: 5px;
+      font-weight: bolder;
+    }
+    button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #002f4e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Maithri Vrudashrama</h1>
+      <h3>A Home for Our Elders</h3>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <h2 style="color: brown;">About Us</h2>
+      <ul style="font-size: x-large;">
+        <li>Maithri Vrudashrama is a free old age home located in Bairidevarakoppa, Hubballi.</li>
+        <li>It provides care and support to elderly residents, ensuring their comfort and well-being.</li>
+        <li>The ashram houses 25 senior citizens, with a team of 5 dedicated and compassionate staff members.</li>
+        <li>The peaceful surroundings and serene atmosphere make it an ideal place for elders to live with dignity.</li>
+        <li>Residents enjoy a clean and comfortable living environment with regular medical checkups and nutritious meals.</li>
+        <li>Bhajans and spiritual activities foster a sense of community and mental well-being.</li>
+        <li>Separate accommodations for men and women ensure privacy and comfort.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="facilities">
+    <div class="facilities-container">
+      <h2 style="color: brown;">Our Facilities</h2>
+      <ul>
+        <li>Clean Living Environment</li>
+        <li>Regular Medical Checkups</li>
+        <li>Nutritious Meals</li>
+        <li>Bhajans and Spiritual Activities</li>
+        <li>Friendly and Caring Staff</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="gallery-container">
+      <h2 style="color: brown;">Image Gallery</h2>
+      <div class="gallery-grid">
+        <figure>
+          <img src="maithri1.jpg" alt="Old Age Home - 1">
+          <figcaption style="font-weight: bold; font-size: larger;">All senior citizens sitting together for bhajan</figcaption>
+        </figure>
+        <figure>
+          <img src="maithri2.jpg" alt="Old Age Home - 2">
+          <figcaption style="font-weight: bold; font-size: larger;">Senior citizens interaction with visitors</figcaption>
+        </figure>
+        <figure>
+          <img src="maithri3.jpg" alt="Old Age Home - 3">
+          <figcaption style="font-weight: bold; font-size: larger;">Surroundings of maithri odage home</figcaption>
+        </figure>
+        <figure>
+          <img src="maithri4.jpg" alt="Old Age Home - 4">
+          <figcaption style="font-weight: bold; font-size: larger;">Women of maithri oldage home</figcaption>
+        </figure>
+      </div>
+      <video src="maithri.mp4" controls width="80%" style="margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);"></video>
+      <figcaption style="font-weight: bold; font-size: larger;">Senior citizens doing bhajan video</figcaption>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2 style="color: brown;">Contact Us</h2>
+      <p style="font-size: large;">Phone: +917795891828</p>
+      <p style="font-size: large;">Address: ShivanandNagar, Hubballi, Karnataka 580025</p>
+    </div>
+  </section>
+
+  <button onclick="window.location.href = 'oldagehome.html'">
+    ← Back
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
